@@ -1,0 +1,27 @@
+.container {
+  background-color: yellow;
+  border: 1px solid red;
+}
+
+.row {
+  justify-self: center;
+}
+
+a {
+
+
+  color: red;
+  font-size: 30px;
+}
+
+
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+.form-inline {
+  margin-left: auto;
+  margin-right: auto;
+}
