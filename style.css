@@ -1,27 +1,112 @@
-.container {
-  background-color: yellow;
-  border: 1px solid red;
+body {
+  font-family: 'Neucha', cursive;
+  background-image:
+    repeating-linear-gradient(45deg,
+      red,
+      red 10px,
+      white 10px,
+      white 20px
+      /* determines size */
+    );
 }
 
-.row {
-  justify-self: center;
+ul {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 a {
-
-
+  font-size: 2rem;
+  text-decoration: none;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
   color: red;
-  font-size: 30px;
+}
+
+.container {
+  justify-content: center;
+  background-color: yellow;
+
+
 }
 
 
 
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
+  font-size: 6rem;
   text-align: center;
   color: red;
 }
 
+.form-control {
+  width: 100%;
+}
+
 .form-inline {
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
+
+}
+
+
+.col-sm-3 {
+  margin: 1rem;
+  padding: 1rem;
+  color: red;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-top: auto;
+  margin-bottom: auto;
+
+
+
+}
+
+
+
+
+.card-img-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: royalblue;
+  height: 50vh;
+
+  border: 2px solid red;
+
+
+}
+
+.title {
+  text-decoration: none;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  font-size: 2.5rem;
+  flex-wrap: wrap;
+
+}
+
+.col-sm .nav-link {
+  color: red,
+}
+
+.card-image {
+  display: grid;
+  width: 500px;
+
+}
+
+.card-text {
+  width: 300px;
 }
