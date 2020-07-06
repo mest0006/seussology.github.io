@@ -9,6 +9,6 @@ try {
   print $e->getMessage() . "<br/>";
   die();
 }
-if ($db) {
-  echo 'database connected';
-}
+// if ($db) {
+//   echo 'database connected';
+// }
